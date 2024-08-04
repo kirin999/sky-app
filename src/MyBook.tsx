@@ -44,7 +44,7 @@ export default function MyBook() {
       >
         <div className="demoPage">
           <img
-            src="../../images/sky-1.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-1.jpg`}
             width={500}
             height={300}
             alt="Page 1"
@@ -57,7 +57,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-2.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-2.jpg`}
             width={500}
             height={300}
             alt="Page 2"
@@ -70,7 +70,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-3.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-3.jpg`}
             width={500}
             height={300}
             alt="Page 3"
@@ -83,7 +83,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-4.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-4.jpg`}
             width={500}
             height={300}
             alt="Page 4"
@@ -96,7 +96,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-5.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-5.jpg`}
             width={500}
             height={300}
             alt="Page 5"
@@ -109,7 +109,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-1.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-1.jpg`}
             width={500}
             height={300}
             alt="Page 1"
@@ -122,7 +122,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-2.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-2.jpg`}
             width={500}
             height={300}
             alt="Page 2"
@@ -135,7 +135,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-3.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-3.jpg`}
             width={500}
             height={300}
             alt="Page 3"
@@ -148,7 +148,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-4.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-4.jpg`}
             width={500}
             height={300}
             alt="Page 4"
@@ -161,7 +161,7 @@ export default function MyBook() {
         </div>
         <div className="demoPage">
           <img
-            src="../../images/sky-5.jpg"
+            src={`${process.env.PUBLIC_URL}/images/sky-5.jpg`}
             width={500}
             height={300}
             alt="Page 5"
