@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <nav className="header-nav">
           <ul>
             <li>
-              <a href="/">最初のページに戻る</a>
+              <a href="/sky-app/">最初のページに戻る</a>
             </li>
           </ul>
         </nav>
