@@ -1,6 +1,53 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column; /* 縦方向に要素を並べる */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ビューポート全体の高さを設定 */
+  margin: 0; /* 不要な余白を削除 */
+  background-color: #f9f9ef;
 }
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+}
+
+
+.stf__block {
+  border: 2px solid #90cfe9; /* 金色のボーダーで本の縁を表現 */
+  border-radius: 5px; /* 角を少し丸くして本の角を表現 */
+  background-color: #f9f9ef; /* アイボリー色で紙の色を表現 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 影を追加して立体感を出す */
+  overflow: hidden; /* 内容物がはみ出さないようにする */
+}
+
+
+.demoPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* テキストを中央揃え */
+  color: #5a5a5a;
+  background-color: #f9f9ef; /* ページの背景を白色に */
+  height: 100%;
+  border-left: 1px solid #e2e2d9; /* ページ間の仕切りを表現 */
+}
+
+.demoPage img {
+  border-radius: 3px; /* ページ内の画像の角を少し丸く */
+  transition: transform 0.3s ease;
+}
+
+.demoPage h2 {
+  margin-bottom: 10px; /* 見出しと段落の間に余白を追加 */
+}
+
+.demoPage p {
+  line-height: 1.6;
+  padding: 0 30px; /* 行間を広くして読みやすく */
+}
+
 
 .App-logo {
   height: 40vmin;

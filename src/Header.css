@@ -1,0 +1,45 @@
+.header {
+    background-color: #afd8e9; /* 水色の背景色 */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 軽い影を追加して立体感を出す */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 450px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between; /* タイトルとナビゲーションを両端に配置 */
+    align-items: center; /* コンテンツを縦方向に中央揃え */
+    max-width: 1200px;
+    margin: 0 auto; /* 中央揃え */
+  }
+  
+  .header-title {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; /* タイトルの文字色を白に */
+    margin: 0;
+    font-size: 24px; /* 大きめのフォントサイズ */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* 軽い文字の影 */
+  }
+  
+  .header-nav ul {
+    list-style: none; /* リストスタイルを削除 */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* リスト間のスペース */
+  }
+  
+  .header-nav li a {
+    text-decoration: none; /* アンダーラインを削除 */
+    color: #ffffff; /* ナビゲーションリンクの文字色を白に */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    transition: color 0.3s; /* ホバー時の色変化をスムーズに */
+  }
+  
+  .header-nav li a:hover {
+    color: #e2e2e2; /* ホバー時の文字色を変更 */
+  }
+  
