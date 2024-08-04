@@ -1,14 +1,22 @@
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import MyBook from "./MyBook";
+import SkyComponent from "./sky/SkyComponent";
+import TrainComponent from "./train/TrainComponent";
+import DropdownMenu from "./DropdownMenu";
 import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MyBook />
+      <Router>
+        <Header />
+        <DropdownMenu />
+        <Routes>
+          <Route path="/sky-app/train" element={<TrainComponent />} />
+          <Route path="/sky-app/sky" element={<SkyComponent />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
