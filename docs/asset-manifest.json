@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kirin999/sky-app.git/static/css/main.b659c684.css",
+    "main.js": "/kirin999/sky-app.git/static/js/main.483da0cd.js",
+    "static/js/453.1048e063.chunk.js": "/kirin999/sky-app.git/static/js/453.1048e063.chunk.js",
+    "index.html": "/kirin999/sky-app.git/index.html",
+    "main.b659c684.css.map": "/kirin999/sky-app.git/static/css/main.b659c684.css.map",
+    "main.483da0cd.js.map": "/kirin999/sky-app.git/static/js/main.483da0cd.js.map",
+    "453.1048e063.chunk.js.map": "/kirin999/sky-app.git/static/js/453.1048e063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b659c684.css",
+    "static/js/main.483da0cd.js"
+  ]
+}
